@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@font-face {
+    font-family: "runescape";
+    src: url("/static/fonts/runescape.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Fira Code', serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+    font-size: x-large;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: white;
+}
